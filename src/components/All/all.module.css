@@ -1,0 +1,29 @@
+.item2 {
+  background-color: #272A2F;
+  transition: 0.5s transform;
+  -o-transition: 0.5s transform;
+  -moz-transition: 0.5s transform;
+  -webkit-transition: 0.5s transform;
+  -ms-transition: 0.5s transform;
+  box-shadow: 0px 0px 15px 15px;
+  cursor: pointer;
+}
+.item2:hover {
+  transform: scale(1.03, 1.03);
+}
+.item2 .h3 {
+  color: #AAAAAA !important;
+  font-size: 16px;
+}
+.item2 .p {
+  color: #758288;
+  font-size: 14px;
+  font-weight: lighter;
+}
+.item2 .mySpan {
+  color: #32383E;
+  background-color: #7A8288;
+  padding: 0px 10px;
+  font-size: 12px;
+  font-weight: 600;
+}/*# sourceMappingURL=all.module.css.map */

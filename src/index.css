@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 40px 0px 0px;
+  background-color: #272B30;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+nav{
+  background-color: #272B30;
+  box-shadow: 0px 0px 15px 15px;
+}
+
+nav a,h6{
+  color: white !important;
+}
+
+nav h6{
+  cursor: pointer;
+}
+
+.row{
+  padding: 40px 0px;
+}
+
+@media screen and (max-width:600) {
+  nav .GameLogo{
+    width: 30% !important;
+  }
 }

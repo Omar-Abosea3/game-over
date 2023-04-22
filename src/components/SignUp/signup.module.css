@@ -1,0 +1,41 @@
+.signupH2 {
+  color: #AAAAAA;
+}
+
+input {
+  background-color: #1C1E22 !important;
+  color: white !important;
+  border: 0px !important;
+}
+input::-moz-placeholder {
+  color: #6A6A69 !important;
+}
+input::placeholder {
+  color: #6A6A69 !important;
+}
+
+.signupImg {
+  background-image: url(../../assets/gaming.ebaf2ffc84f4451d.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.signupCol {
+  background-color: #32383E !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .signupCol {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .signupImg {
+    height: 50vh !important;
+    width: 100% !important;
+    margin: -30px 0 !important;
+  }
+  .body {
+    height: 150vh !important;
+  }
+}/*# sourceMappingURL=signup.module.css.map */

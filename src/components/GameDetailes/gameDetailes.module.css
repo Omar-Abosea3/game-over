@@ -1,0 +1,39 @@
+.layer {
+  background-color: rgba(37, 42, 47, 0.9);
+}
+
+.h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.gameDetColor {
+  color: #AAAAAA;
+}
+.gameDetColor .h6 {
+  color: #AAAAAA !important;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.gameDetColor .p {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.gameDetColor .span {
+  font-size: 1.3rem;
+  font-weight: 400 !important;
+}
+
+#GameDet {
+  @i background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.img {
+  transition: 0.5s all;
+  z-index: 999;
+}
+.img:hover {
+  opacity: 0;
+}/*# sourceMappingURL=gameDetailes.module.css.map */
