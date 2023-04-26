@@ -56,8 +56,8 @@ export default function GameDetailes() {
                             <source type="video/webm" src={`https://www.freetogame.com/g/${GameDetailes.id}/videoplayback.webm`}/>
                           </video>
                           <div className='p-2 start-0 end-0 top-0 bottom-0 position-absolute'>
-                          <img src={GameDetailes.thumbnail} className={gameCss.img +' rounded-2  w-100'} alt={GameDetailes.title} />
-                          <figcaption className='d-flex py-3 justify-content-between align-items-center'>
+                          <img src={GameDetailes.thumbnail} className={gameCss.img +' rounded-2 w-100 h-100'} alt={GameDetailes.title} />
+                          <figcaption style={{top:'100%'}} className='d-flex px-2 py-3 justify-content-between start-0 end-0 align-items-center position-absolute'>
                                   <button className='btn bg-secondary col-3'>Free</button>
                                   <a href={GameDetailes.freetogame_profile_url} className='btn col-8 btn-primary'>PLAY NOW <i className='fa fa-sign-out-alt'> </i></a>
                           </figcaption>
