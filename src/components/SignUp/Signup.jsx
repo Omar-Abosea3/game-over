@@ -86,10 +86,10 @@ export default function Signup() {
                               {formik.errors.phone && formik.touched.phone ?<div className="alert py-1 alert-warning">{formik.errors.phone}</div>:''}
 
                               <input id='password' onBlur={formik.handleBlur} onChange={formik.handleChange} value={formik.values.password} className='form-control mt-4' placeholder='password' type="password" />
-                              {formik.errors.password && formik.touched.name ?<div className="alert py-1 alert-warning">{formik.errors.password}</div>:''}
+                              {formik.errors.password && formik.touched.password ?<div className="alert py-1 alert-warning">{formik.errors.password}</div>:''}
 
                               <input id='rePassword' onBlur={formik.handleBlur} onChange={formik.handleChange} value={formik.values.rePassword} className='form-control mt-4' placeholder='rePassword' type="password" />
-                              {formik.errors.rePassword && formik.touched.name ?<div className="alert py-1 alert-warning">{formik.errors.rePassword}</div>:''}
+                              {formik.errors.rePassword && formik.touched.rePassword ?<div className="alert py-1 alert-warning">{formik.errors.rePassword}</div>:''}
                               <button type='submit' className='btn btn-secondary mb-3 w-100 mt-4'>Create Account</button>
                               <p style={{fontSize:'0.9rem'}} className='text-muted'>This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
                           </form>
