@@ -1,4 +1,4 @@
-import { Navigate, RouterProvider, createBrowserRouter} from 'react-router-dom';
+import { Navigate, RouterProvider, createHashRouter} from 'react-router-dom';
 import './App.css';
 import Layout from './components/Layout/Layout';
 import Home from './components/Home/Home';
@@ -85,7 +85,7 @@ function App() {
  
 
 
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {path:'',element:<Layout curUser={curUser} clearUserData={clearUserData}/>,children:[
       {path:'',element:<ProtectedRoutes2><Login getUserData={getUserData}/></ProtectedRoutes2>},
       {path:'home',element:<ProtectedRoutes><Home/></ProtectedRoutes>},
