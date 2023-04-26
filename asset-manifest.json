@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/game-over/static/css/main.01c9f904.css",
+    "main.js": "/game-over/static/js/main.79c99c22.js",
+    "static/js/787.0b8078ef.chunk.js": "/game-over/static/js/787.0b8078ef.chunk.js",
+    "static/media/fa-solid-900.ttf": "/game-over/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/paladins.png": "/game-over/static/media/paladins.b44d33d6e7ee1ba8.0fddd1fbe0a5e0a0af93.png",
+    "static/media/gaming.jpg": "/game-over/static/media/gaming.ebaf2ffc84f4451d.d5751ff804c935b205d3.jpg",
+    "static/media/fa-brands-400.ttf": "/game-over/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/logo.png": "/game-over/static/media/logo.548dc5719c2345c22eef.png",
+    "static/media/fa-solid-900.woff2": "/game-over/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/game-over/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/game-over/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/fa-regular-400.woff2": "/game-over/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/game-over/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/game-over/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "static/media/slick.svg": "/game-over/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/game-over/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/game-over/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/game-over/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/game-over/index.html",
+    "main.01c9f904.css.map": "/game-over/static/css/main.01c9f904.css.map",
+    "main.79c99c22.js.map": "/game-over/static/js/main.79c99c22.js.map",
+    "787.0b8078ef.chunk.js.map": "/game-over/static/js/787.0b8078ef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01c9f904.css",
+    "static/js/main.79c99c22.js"
+  ]
+}
