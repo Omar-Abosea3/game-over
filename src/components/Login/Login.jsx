@@ -22,7 +22,7 @@ export default function Login({getUserData}) {
 
     async function sendNewUser(nUser){
         try {
-            const {data} = await axios.post(`https://route-ecommerce.onrender.com/api/v1/auth/signin`, nUser);
+            const {data} = await axios.post(`https://route-ecommerce-app.vercel.app/api/v1/auth/signin`, nUser);
                 if(data.message == 'success'){
                     localStorage.setItem('tkn',data.token);
                     setTimeout(() => {
