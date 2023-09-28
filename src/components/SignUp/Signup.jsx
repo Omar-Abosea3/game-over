@@ -23,7 +23,7 @@ export default function Signup() {
                     $('.sucMsg').fadeOut(500,function(){
                         navigate('/login')
                     });
-                }, 2000);
+                }, 2000); 
             })
         } catch (error) {
             console.log(error);
