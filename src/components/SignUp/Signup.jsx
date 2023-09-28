@@ -17,7 +17,7 @@ export default function Signup() {
 
     async function sendNewUser(nUser){
         try {
-            const {data} = await axios.post(`https://route-ecommerce-app.vercel.app/api/v1/auth/signup`, nUser);
+            const {data} = await axios.post(`https://ecommerce.routemisr.com/api/v1/auth/signup`, nUser);
             $('.sucMsg').fadeIn(500,function(){
                 setTimeout(() => {
                     $('.sucMsg').fadeOut(500,function(){
