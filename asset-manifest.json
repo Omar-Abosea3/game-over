@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/game-over/static/css/main.d88cabd6.css",
-    "main.js": "/game-over/static/js/main.a54ab094.js",
+    "main.js": "/game-over/static/js/main.f5c3b34e.js",
     "static/js/787.0b8078ef.chunk.js": "/game-over/static/js/787.0b8078ef.chunk.js",
     "static/media/fa-solid-900.ttf": "/game-over/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/paladins.png": "/game-over/static/media/paladins.b44d33d6e7ee1ba8.0fddd1fbe0a5e0a0af93.png",
@@ -20,11 +20,11 @@
     "static/media/slick.woff": "/game-over/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/game-over/index.html",
     "main.d88cabd6.css.map": "/game-over/static/css/main.d88cabd6.css.map",
-    "main.a54ab094.js.map": "/game-over/static/js/main.a54ab094.js.map",
+    "main.f5c3b34e.js.map": "/game-over/static/js/main.f5c3b34e.js.map",
     "787.0b8078ef.chunk.js.map": "/game-over/static/js/787.0b8078ef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d88cabd6.css",
-    "static/js/main.a54ab094.js"
+    "static/js/main.f5c3b34e.js"
   ]
 }
